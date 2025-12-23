@@ -1,0 +1,127 @@
+🟢1. Basic Illness Test Cases (simple)
+        1️⃣ Common Cold
+
+        “I have runny nose, mild fever and sneezing since yesterday.”
+
+        2️⃣ Flu
+
+        “I have high fever, chills, body pain and dry cough for 2 days.”
+
+        3️⃣ Migraine
+
+        “I have severe headache with nausea and sensitivity to light.”
+
+        4️⃣ Sinusitis
+
+        “My face hurts, especially around the eyes, and I have a blocked nose.”
+
+        5️⃣ Food Poisoning
+
+        “I’m vomiting a lot with stomach cramps and loose motions since last night.”
+
+🟡2.Medium Complexity Tests (mixed symptoms + duration)
+
+        6️⃣ Viral Fever
+
+        “I have fever, headache and fatigue for the past 3 days.”
+
+        7️⃣ Gastroenteritis
+
+        “I am having diarrhea, vomiting and stomach pain for 2 days.”
+
+        8️⃣ Bronchitis
+
+        “I have persistent cough with mucus and chest discomfort for a week.”
+
+        9️⃣ Allergies
+
+        “My eyes are itchy and I’m sneezing a lot with a runny nose.”
+
+        🔟 Skin-related (Fungal Infection)
+
+        “I have itching with red rash on my skin, especially in humid areas.”
+
+🔴3.Advanced Medical Tests (Rule engine + triage)
+        1️⃣1️⃣ Dengue-like Combination
+
+        “I have high fever, joint pain and a small rash for 3 days. I also noticed more mosquitoes lately.”
+
+        1️⃣2️⃣ Malaria-like Pattern
+
+        “I get high fever every evening with chills and sweating.”
+
+        1️⃣3️⃣ Pneumonia Pattern
+
+        “I have fever, cough and chest pain while breathing.”
+
+        1️⃣4️⃣ Acidity / GERD
+
+        “I feel a burning sensation in my chest after eating, especially at night.”
+
+        1️⃣5️⃣ Tension Headache
+
+        “I’ve been having a dull headache and neck pain because of stress.”
+
+🔥 Emergency Triage Tests (ER checks)
+        1️⃣6️⃣ Emergency Chest Pain
+
+        “I have chest pain and difficulty breathing since this morning.”
+
+        1️⃣7️⃣ Severe Dehydration
+
+        “I’ve been vomiting and having diarrhea nonstop for 2 days, feeling very weak.”
+
+        1️⃣8️⃣ Long Fever
+
+        “I have high fever for 5 days that is not coming down.”
+
+🟣 Risk Factor Detection Tests
+        1️⃣9️⃣ Diabetic Headache + Fever
+
+        “I have mild fever and headache for 3 days. I am diabetic.”
+
+        2️⃣0️⃣ Smoker’s Cough
+
+        “I have cough and chest discomfort. I am a regular smoker.”
+
+        2️⃣1️⃣ Pregnant Woman + Nausea
+
+        “I am pregnant and feeling nausea and weakness since morning.”
+
+        2️⃣2️⃣ Travel History
+
+        “I have fever and stomach cramps after returning from a trip.”
+
+🧠 Complex Multi-Symptom Tests (realistic challenges)
+        2️⃣3️⃣ Mixed Flu + Allergy
+
+        “I have sneezing, mild fever, itchy eyes and a little cough.”
+
+        2️⃣4️⃣ Stomach + Fever + Duration
+
+        “I’ve had stomach pain and vomiting for 2 days and I feel very tired.”
+
+        2️⃣5️⃣ Sinusitis + Migraine Confusion
+
+        “I have headache behind my eyes and blocked nose for 4 days.”
+
+🧪 Extreme Corner Cases (Good for testing NLP)
+        2️⃣6️⃣ No symptoms (should ask for clarification)
+
+        “Not feeling good.”
+
+        2️⃣7️⃣ Very vague
+
+        “I feel weird inside.”
+
+        2️⃣8️⃣ Too many symptoms (bot must prioritize)
+
+        “I have headache, fever, nausea, stomach pain, cough, fatigue, diarrhea, chills.”
+
+        2️⃣9️⃣ Contradicting symptoms
+
+        “I have high fever but I feel cold at the same time.”
+
+        3️⃣0️⃣ Test severity scaling
+
+        “I have SEVERE headache and vomiting since 5 days.”
